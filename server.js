@@ -6,6 +6,6 @@ app.listen(8080, () => {
 });
 
 app.get("/health", (req, res, next) => {
-  res.status(200).send("Hello!");
+  res.status(200).send("Hallo TW!");
 });
 
