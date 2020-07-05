@@ -6,6 +6,6 @@ app.listen(8080, () => {
 });
 
 app.get("/health", (req, res, next) => {
-  res.status(200).send("Hallo Taufi!");
+  res.status(200).send("Hallo Tanja!"); //KD 200621 status 200 shows kubernetes that everything works fine
 });
 
